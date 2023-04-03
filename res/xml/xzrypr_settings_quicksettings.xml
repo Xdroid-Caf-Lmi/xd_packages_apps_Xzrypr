@@ -66,4 +66,12 @@
           android:summary="@string/artwork_media_background_summary"
           android:defaultValue="false" />
 
+     <!-- QS media player -->
+     <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
+         android:key="qs_media_player"
+         android:title="@string/qs_media_player_title"
+         android:summaryOn="@string/qs_media_player_summary_on"
+         android:summaryOff="@string/qs_media_player_summary_off"
+         android:defaultValue="true" />
+
 </PreferenceScreen>
