@@ -73,5 +73,11 @@
          android:summaryOn="@string/qs_media_player_summary_on"
          android:summaryOff="@string/qs_media_player_summary_off"
          android:defaultValue="true" />
+         
+      <com.xd.support.preferences.SecureSettingSwitchPreference
+         android:key="notification_headers"
+         android:title="@string/notification_headers_title"
+         android:summary="@string/notification_headers_summary"
+         android:defaultValue="true" />
 
 </PreferenceScreen>
